@@ -162,35 +162,4 @@ function doGet() {
                                                                                         // [기능 1] 최신 날짜순으로 정렬
                                                                                             results.sort((a, b) => b.sortDate - a.sortDate);
                                                                                                 
-                                                                                                    return results.map(item => item.data); // 정렬 후 실제 데이터만 반환
-
-           } catch (e) {
-                return { error: e.toString() };
-           }
-         }
-         
-           }
-                                                                                                                                                                                                                                                                      }}}
-                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                }
-                                                                                                                                                                                        }
-                                                                                                                                                                                      }
-                                                                                                                                                                        }
-                                                                                                                                                      }
-                                                                                                                                        }
-                                                                                                                                        }
-                                                                                                                            }
-                                                                                    }
-                                                        }
-                                                        }
-           }}
-          }
-                                                                                                                        }
-                                                                                              }
-                                                            }
-          }
-    }
-      }
-      }
-  }
-}
+                                                                                                    return results.map(item => item.data); // 정렬 후 실제 데이터만 반
